@@ -1,0 +1,6 @@
+<?php
+require_once "controlador/usuarioController.php";
+
+$controller = new UsuarioController();
+$controller->mostrarUsuario();
+?>
